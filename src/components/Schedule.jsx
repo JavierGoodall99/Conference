@@ -8,26 +8,26 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'April 4',
+    date: 'February 2',
     dateTime: '2022-04-04',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      'The first day of the musical extravaganza is dedicated to exploring diverse genres and styles.',
     timeSlots: [
       {
         name: 'Steven McHail',
-        description: 'Not so one-time payments',
+        description: 'Noteworthy Rhythms: A Journey Through Musical Payments',
         start: '9:00AM',
         end: '10:00AM',
       },
       {
         name: 'Jaquelin Isch',
-        description: 'The finer print',
+        description: 'The Harmonious Details: Exploring Musical Composition',
         start: '10:00AM',
         end: '11:00AM',
       },
       {
         name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
+        description: 'Melodic Journeys: From Purchase to Harmony',
         start: '11:00AM',
         end: '12:00PM',
       },
@@ -39,45 +39,45 @@ const schedule = [
       },
       {
         name: 'Ronni Cantadore',
-        description: 'Buy or die',
+        description: 'Buy or Dance: A Symphony of Choices',
         start: '1:00PM',
         end: '2:00PM',
       },
       {
         name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
+        description: 'In-Person Encore: Cancellation and Rhythmic Resilience',
         start: '2:00PM',
         end: '3:00PM',
       },
       {
         name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
+        description: 'The Pay/Play Switcheroo: Crafting Musical Experiences',
         start: '3:00PM',
         end: '4:00PM',
       },
     ],
   },
   {
-    date: 'April 5',
+    date: 'February 3',
     dateTime: '2022-04-05',
     summary:
-      'Next we spend the day talking about deceiving people with technology.',
+      'On the second day, we delve into the world of musical innovation and creativity.',
     timeSlots: [
       {
         name: 'Damaris Kimura',
-        description: 'The invisible card reader',
+        description: 'The Invisible Harmony: Exploring Unconventional Melodies',
         start: '9:00AM',
         end: '10:00AM',
       },
       {
         name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
+        description: 'Fingerprint of Sound: Crafting Unique Musical Impressions',
         start: '10:00AM',
         end: '11:00AM',
       },
       {
         name: 'Cathlene Burrage',
-        description: 'Voting machines',
+        description: 'Melodic Voting Machines: The Sound of Choices',
         start: '11:00AM',
         end: '12:00PM',
       },
@@ -89,45 +89,45 @@ const schedule = [
       },
       {
         name: 'Rinaldo Beynon',
-        description: 'Blackhat SEO that works',
+        description: 'Harmonic SEO: Crafting Melodies that Resonate',
         start: '1:00PM',
         end: '2:00PM',
       },
       {
         name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
+        description: 'Turning Audiences into Harmonious Communities',
         start: '2:00PM',
         end: '3:00PM',
       },
       {
         name: 'Giordano Sagucio',
-        description: 'Fly phishing',
+        description: 'Fly Phishing Melodies: An Unconventional Approach',
         start: '3:00PM',
         end: '4:00PM',
       },
     ],
   },
   {
-    date: 'April 6',
+    date: 'February 4',
     dateTime: '2022-04-06',
     summary:
-      'We close out the event previewing new techniques that are still in development.',
+      'We conclude the event by showcasing upcoming musical techniques that are still in development.',
     timeSlots: [
       {
         name: 'Andrew Greene',
-        description: 'Neuralink dark patterns',
+        description: 'Neuralink Harmonies: Exploring the Future of Musical Patterns',
         start: '9:00AM',
         end: '10:00AM',
       },
       {
         name: 'Heather Terry',
-        description: 'DALL-E for passports',
+        description: 'DALL-E Soundscapes: Crafting Passport to New Realms',
         start: '10:00AM',
         end: '11:00AM',
       },
       {
         name: 'Piers Wilkins',
-        description: 'Quantum password cracking',
+        description: 'Quantum Music: Breaking New Grounds in Sonic Exploration',
         start: '11:00AM',
         end: '12:00PM',
       },
@@ -139,25 +139,27 @@ const schedule = [
       },
       {
         name: 'Gordon Sanderson',
-        description: 'SkyNet is coming',
+        description: 'Harmonic Futures: A Glimpse into the Future of Musical Evolution',
         start: '1:00PM',
         end: '2:00PM',
       },
       {
         name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
+        description: 'Metaverse Melodies: Dark Patterns in Musical Innovation',
         start: '2:00PM',
         end: '3:00PM',
       },
       {
         name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
+        description: 'Knowing the Melodic Game and Playing It Right',
         start: '3:00PM',
         end: '4:00PM',
       },
     ],
   },
-]
+];
+
+
 
 function ScheduleTabbed() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -304,13 +306,10 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <p className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+          Three Days of Harmonic Brilliance: A Symphony of Musical Virtuosos.
           </p>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+          Experience the finest talents in the music industry as they deliver mesmerizing performances over three days. Our virtuoso musicians will captivate you with extraordinary melodies and unparalleled skills. To ensure the exclusivity of this musical journey, each viewer is invited to join the live streaming event, and the enchanting performances will not be recorded
           </p>
         </div>
       </Container>

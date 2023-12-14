@@ -26,116 +26,117 @@ import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 const days = [
   {
     name: 'Opening Day',
-    date: 'April 4',
+    date: 'February 2',
     dateTime: '2022-04-04',
     speakers: [
       {
         name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
+        role: 'Pianist at Globex Symphony',
         image: stevenMchailImage,
       },
       {
         name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
+        role: 'Violinist at InGen Ensemble',
         image: jaquelinIschImage,
       },
       {
         name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
+        role: 'Conductor at Initech Orchestra',
         image: dianneGuilianelliImage,
       },
       {
         name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
+        role: 'Guitarist at Weyland-Yutani Band',
         image: ronniCantadoreImage,
       },
       {
         name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
+        role: 'Cellist at Cyberdyne Symphony',
         image: erhartCockrinImage,
       },
       {
         name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
+        role: 'Flutist at MomCorp Ensemble',
         image: parkerJohnsonImage,
       },
     ],
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
+    name: 'Musicians & Performances',
+    date: 'February 3',
     dateTime: '2022-04-05',
     speakers: [
       {
         name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
+        role: 'Saxophonist at OCP Jazz Quartet',
         image: damarisKimuraImage,
       },
       {
         name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
+        role: 'Drummer at Umbrella Corp Band',
         image: ibrahimFraschImage,
       },
       {
         name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
+        role: 'Guitarist at Buy n Large Jam Session',
         image: cathleneBurrageImage,
       },
       {
         name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
+        role: 'Bassist at Rekall Rhythms',
         image: rinaldoBeynonImage,
       },
       {
         name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
+        role: 'Percussionist at RDA Corporation Beats',
         image: waylonHydenImage,
       },
       {
         name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
+        role: 'Keyboardist at Soylent Corp Ensemble',
         image: giordanoSagucioImage,
       },
     ],
   },
   {
-    name: 'Interviews',
-    date: 'April 6',
+    name: 'Live Sessions',
+    date: 'February 5',
     dateTime: '2022-04-06',
     speakers: [
       {
         name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
+        role: 'Guitarist at Ultratech Jam',
         image: andrewGreeneImage,
       },
       {
         name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
+        role: 'Drummer at Xanatos Enterprises Groove',
         image: heatherTerryImage,
       },
       {
         name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
+        role: 'Keyboardist at BiffCo Fusion',
         image: piersWilkinsImage,
       },
       {
         name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
+        role: 'Saxophonist at Cobra Industries Jazz',
         image: gordonSandersonImage,
       },
       {
         name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
+        role: 'Violinist at Tyrell Corporation Strings',
         image: kimberlyParsonsImage,
       },
       {
         name: 'Richard Astley',
-        role: 'CEO at Roll Out',
+        role: 'Lead Vocalist at Roll Out Band',
         image: richardAstley,
       },
     ],
   },
-]
+];
+
 
 export function Speakers() {
   let id = useId()
@@ -181,11 +182,10 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Speakers
+            Musicians 
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+          Immerse yourself in the artistry of musical mastery with virtuoso performances from leading artists on the cutting edge of innovation.
           </p>
         </div>
         <Tab.Group
